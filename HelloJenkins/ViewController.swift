@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         
         view.addSubview(myLabel)
         myLabel.translatesAutoresizingMaskIntoConstraints = false
-        myLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 50).isActive = true
+        myLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 200).isActive = true
         myLabel.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 20).isActive = true
         myLabel.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -20).isActive = true
         myLabel.heightAnchor.constraint(equalToConstant: 50).isActive = true
